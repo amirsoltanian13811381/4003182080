@@ -1,0 +1,270 @@
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+   
+}
+
+.header-left {
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    margin-right: 5px; 
+}
+
+.header-center {
+    margin-left: 0; 
+}
+
+.search-input {
+    padding: 8px; 
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.login-button,
+.register-button {
+    margin-left: 15px; 
+    padding: 8px 12px;
+    color: black;
+}
+
+.cart-icon {
+    margin-left: 15px;
+}
+.images1{
+    padding: 20px; 
+    position: relative;
+    overflow: hidden;
+}
+.maages{
+
+    width:100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+ /* محصولات  Products*/
+.amazing-offer-container {
+    background-color: #fff; 
+    padding: 20px;
+}
+
+.amazing-offer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.amazing-offer-header h2 {
+    font-size: 1.5em;
+}
+.amazing-offer-header a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+.discount-sign{
+    color: #f03353;
+    font-size: 2.5em;
+    padding: 0px 10px;
+
+}
+
+.timer {
+  display: flex;
+    font-size: 1.2em;
+    color: #555;
+
+}
+.timer span{
+    margin-left: 2px;
+}
+.all-product{
+    background-color: #f03353;
+}
+
+.amazing-offer-scrollable {
+    display: flex;
+    align-items: center;
+     position: relative;
+    overflow-x: hidden;
+    
+}
+.product-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+.scroll-button{
+   position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    z-index: 1;
+}
+.scroll-prev{
+  right:5px ;
+}
+.scroll-next {
+  left:5px ;
+}
+
+.product {
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px;
+    white-space: nowrap;
+     display: flex;
+    flex-direction: column;
+     align-items: center;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.product p{
+  font-size: 0.9em;
+     color: #000000;
+   margin: 2px;
+}
+.product .product-price{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #f03353;
+        font-weight: bold; 
+        font-size: 1.1em; 
+}
+.product .product-price p {
+    font-size: 1em;
+    margin: 0; 
+}
+.product .product-price p span{
+ font-size: 1em;
+ text-decoration: line-through;
+    color: #100c0c; 
+    font-weight: normal;
+}
+/*product story*/
+.category-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.category-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 10px;
+    padding: 10px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+     transition: transform 0.2s ease; 
+
+}
+.category-item:hover {
+    transform: scale(1.05); /*هاور کردن hover*/
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+.category-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.category-item p {
+    font-size: 0.9em;
+     color: #555;
+    margin: 5px 0;
+}
+/*Advertising photo*/
+.Advertising{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Advertising-container{
+   margin:0px;
+padding-right: 50px;
+
+}
+.Advertising-imag{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+}
+.tsxt-top{
+    text-align: center;
+    margin-bottom: 3px;
+}
+.text-Top-logos{
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    background-color: #ffffff;
+   border: #f0f0f0;
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-radius: 10px 10px 10px 10px ;
+
+}
+
+.all-logo{
+    display: flex;
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 24px;
+  padding-bottom: 24px;
+  max-height: 30vh;
+  overflow-y: auto;
+  width:90%;
+  object-fit: cover;
+}
+
+.titles{
+    width:50px;
+}
+  

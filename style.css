@@ -1,0 +1,277 @@
+@import url(fontiran.css);
+body {
+	font-family: iranyekan  !important;
+	direction: rtl;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.header-center input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: right;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start; 
+    margin-right: auto; 
+}
+.header-banner {
+    background-color: #f03353;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.header-second-container {
+    display: flex;
+    justify-content: space-around;
+     max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.header-second-container a {
+    text-decoration: none;
+    color: #555;
+     font-size: 0.9em;
+}
+
+
+/* Stories Styles */
+.stories-container {
+    padding: 20px;
+}
+
+.stories-scrollable {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.story {
+    text-align: center;
+    margin: 0 10px;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid  rgb(206, 77, 90);
+    margin-bottom: 5px;
+}
+
+.story p {
+    font-size: 0.9em;
+    color: #373434;
+    margin-top: 5px;
+}
+.fas{
+    color: #000;
+    
+}
+.Discount{
+    background-color: #ed425f;
+    color: #000000;
+}
+/*بنر  banner*/
+.item-baner{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cantren{
+    width:100%;
+    max-width: 1200px;
+}
+.banner-grid{
+    display: flex;
+}
+.banner-image{
+    width: 95%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    text-align: right;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.text-alin-2{
+    text-align: center
+}
+ /*footer دیجی کالا*/
+.icon-footer-dijikala{
+    margin-right: 30px;
+}
+.icon-digikala{
+    display: inline-block; 
+    transform: scale(0.5);
+    margin-right: -66px;
+}
+.hr-1{
+    color: #dedede;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+    
+}
+.text-all-items{
+    font-size: small;
+    margin-top: 10px;
+    display: flex;
+    gap:30px ;
+}
+.text-footer{
+    font-size: small;
+   color: #545252;
+   /*icon - footer Support-->*/
+}
+.supoort-items{
+     float:right;
+    font-size:10PX;
+    margin:120px;
+    margin-left: 150px;
+   margin-right: 120px;
+   margin-top: 20px;
+   margin-bottom:100px; 
+}
+.imag-Support{
+    content: icon;
+    display:flex;
+    clear: both;
+}
+/* قسمت نوشته های فوتر  text footer*/
+.newsletter-section{
+    text-align:left;
+}
+.text-column{
+    margin-right:35px;
+}
+.links-section{
+    display:flex;
+    gap:200px;
+    position: relative;
+    top: -150px;
+    margin-right:5px; 
+    margin-bottom: 8px;
+}
+.item-list{
+    color: #5c5858;
+    margin-top: 20px; 
+    text-decoration: none;
+    line-height: 2.1;
+    
+
+}
+li{
+    list-style: none;
+}
+
+.Titles {
+    margin-right:150px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    /*background-color:#fff;*/
+    border: 1px #ddd solid;
+    width: 100%;
+    align-items: center;    
+    padding-right:px;
+    border-radius:10px;
+}
+.category {
+    
+    margin: 15px;
+    padding: 20px;
+    width: calc(25% - 30px);
+    text-align: right;
+    box-sizing: border-box; 
+ 
+}
+
+.category-header h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.category-header p {
+    color: #777;
+    font-size: 0.9em;
+}
+
+
+.products {
+    /*display: flex;
+    flex-wrap: wrap;*/
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.products img {
+    width: 48%;
+    max-width: 100px;
+    height: auto;
+    margin-bottom:-5px;
+    border-radius: 4px;
+}
+.svg-icon-more{
+    color:#19bfd3;
+}
+
+
+.view-more {
+    display: inline-block;
+    margin-top:-3px;
+    text-decoration: none;
+    color:#19bfd3;
+    /*font-weight: bold;*/
+    padding: 8px 80px;
+    font-size: small;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.products-img{
+    width: 48%;
+    max-width: 100px;
+    height: auto;
+    margin-bottom:5px;
+    border-radius: 4px;
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .category {
+    width: calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .category {
+    width: calc(100% - 30px);
+  }
+}
